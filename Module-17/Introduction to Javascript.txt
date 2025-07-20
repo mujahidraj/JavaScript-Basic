@@ -2,7 +2,7 @@ Module-17 : Introduction to JavaScript
 
 	17.1 : Introduction to JavaScript , Run javascript in VScode
 
-		 here we learn about the javascript . the history of the javascript programming language . how javascript programming language works . is the javaascript is a complied language or the interpreted language . what is the core working of javascript . why we use thew javascript programming language . how to usw the javascript programming language . the core engines of the javascript . and what is the first name of the javascript . that mean total hisotry of the javascript language . afte that we learn about how to learn javascript . in the browser , in the vscode and codepen . many more about the javawscipt .
+		 here we learn about the javascript . the history of the javascript programming language . how javascript programming language works . is the javascript is a complied language or the interpreted language . what is the core working of javascript . why we use thew javascript programming language . how to usw the javascript programming language . the core engines of the javascript . and what is the first name of the javascript . that mean total history of the javascript language . after that we learn about how to learn javascript . in the browser , in the vscode and codepen . many more about the javascript .
 
 
 	17.2 : Maths Needed to start learning Programming Language
@@ -55,12 +55,12 @@ Module-17 : Introduction to JavaScript
 		 here we get to know how to declare a alphabetical value of a variable . for this we have to write a string value inside a double quotation . so there are many type of data types like ...
 		 1 . String {alphabetical value of a variable . for this we have to write a string value inside a double quotation .}
 		 2 . boolean {
-			here we have to use true or false value . no need to use the double qoutation and lowercase .
+			here we have to use true or false value . no need to use the double quotation and lowercase .
 		 }
 
 		 N.B : here we can see the variable type but typing the typeof  syntax and it will tell me what the data type is .
 
-		 3 . there are many more type of data type in the javscript .
+		 3 . there are many more type of data type in the javascript .
 
 	17.6 : JavaScript Keyword, Variable name naming convention
 
@@ -71,7 +71,7 @@ Module-17 : Introduction to JavaScript
 		 4 . undefined 
 		 5 . null  
 
-		 rules for the variable name deaclaration : 
+		 rules for the variable name declaration : 
 
 		 1 . no keyword in variable name
 		 2 . no space or gap in variable name 
@@ -81,7 +81,7 @@ Module-17 : Introduction to JavaScript
 
 		 6 . write a long variable name {
 			1 . underscore or snake case
-			2 . second word first aplhabet uppercase or camel case
+			2 . second word first alphabet uppercase or camel case
 			3 . every word first alphabet could be uppercase or pascal case
 		 }
 
@@ -92,7 +92,7 @@ Module-17 : Introduction to JavaScript
 
 	17.7 : Know the fundamentals of JS Numbers
 
-		 here we get to know that we shouldnt have write number in the quotation . as javascript take it as the string value .  again we learn about the purse keyword .  here we can convert a string or string to number or anything conversion can be done using the parse .again we learn about the tofixed keyword . it confirmed us it convert a define number like 1.12 whereas it is 1.1234.
+		 here we get to know that we should not have write number in the quotation . as javascript take it as the string value .  again we learn about the purse keyword .  here we can convert a string or string to number or anything conversion can be done using the parse .again we learn about the tofixed keyword . it confirmed us it convert a define number like 1.12 whereas it is 1.1234.
 
 	17.8 : Introduction to arithmetic operators
 
@@ -100,4 +100,10 @@ Module-17 : Introduction to JavaScript
 
 	17.9 : Mathematical operation shorthand
 
-		here we learn another thing called expotential .
+		here we learn another thing called exponential .we learn some of the shorthands .
+		another thing we learn called concatenation .here we learn concat of javascript .concat works in the addition not in the subtraction or multiplication or division .
+
+	17.10 : Module Summary and Practice Task
+
+		here we get to know why javascript is needed . mainly interactive . again javascript is a high level and interpreted language . it dynamically update content . control media . 
+		again we learn about the variable . variable is a contain3r of data value . there is some type of data type . like string , number , boolean , null and undefine . we learn some of the keyword of the javascript . again we  learn naming convention . we learn about the NaN .. this is called not a number . we learn about the isNaN ...
