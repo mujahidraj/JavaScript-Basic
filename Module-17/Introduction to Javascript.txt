@@ -1,0 +1,103 @@
+Module-17 : Introduction to JavaScript
+
+	17.1 : Introduction to JavaScript , Run javascript in VScode
+
+		 here we learn about the javascript . the history of the javascript programming language . how javascript programming language works . is the javaascript is a complied language or the interpreted language . what is the core working of javascript . why we use thew javascript programming language . how to usw the javascript programming language . the core engines of the javascript . and what is the first name of the javascript . that mean total hisotry of the javascript language . afte that we learn about how to learn javascript . in the browser , in the vscode and codepen . many more about the javawscipt .
+
+
+	17.2 : Maths Needed to start learning Programming Language
+
+		 here we learn how math is important in the programming . like we have to know some mathematical terms . such as , 
+		 1 . number : positive , negative and 0
+		 2 . integer : 2 ,3,4 ,even ,odd 
+		 3 . float : 9.07
+		 4 . operation : +,-,*,/
+		 5 . more operation : % []
+		 6 . percentage : 5%
+		 7 . sum:
+		 8 . avg
+		 9 . max/min 
+		 10 . series 
+		 11 . area : triangle , square ,circle etc
+		 12 . permutation and combination
+		 13 . charts ,graph,cartesian 
+		 14 . axises
+		 15 . basic algebra
+		 
+		 and many more things . we can get these from the google by searching like basic maths . thats mean we need some of the basic mathematics in the javascript programming language . 
+
+
+	17-3 : What is a variable, five things you need to declare a variable
+
+		here we learn about the variable . what is variable . we learn five things to declare a variable : 
+		1 . variable name 
+		2 . name 
+		3 . equal sign 
+		4 . value 
+		5 . semi colon
+		
+
+		here we learn how variable work . why we have to declare variable .how to declare the variable . again how we can re declare variable value . 
+
+
+	17.4 : Variable Animated Video
+
+		 here we see the variable and understand the variable using a animated video . a variable can store the value in the computer memory with the name and the value address . 
+		 var is a keyword . var cant store anything outside the type . we can change the value or redeclare the value .
+
+		 again we learn about the let keyword . here let can store anything or any data type . not only the specific data type . we can change the value and redeclare the value.
+
+		 again we can get to know about the const . where we can not change the value of the variable .
+
+	
+	17.5 : Variable data types, Numeric, String, Boolean
+
+		 here we get to know how to declare a alphabetical value of a variable . for this we have to write a string value inside a double quotation . so there are many type of data types like ...
+		 1 . String {alphabetical value of a variable . for this we have to write a string value inside a double quotation .}
+		 2 . boolean {
+			here we have to use true or false value . no need to use the double qoutation and lowercase .
+		 }
+
+		 N.B : here we can see the variable type but typing the typeof  syntax and it will tell me what the data type is .
+
+		 3 . there are many more type of data type in the javscript .
+
+	17.6 : JavaScript Keyword, Variable name naming convention
+
+		 there we five most basic type of data such as 
+		 1 . string 
+		 2 . numbers 
+		 3 . booleans
+		 4 . undefined 
+		 5 . null  
+
+		 rules for the variable name deaclaration : 
+
+		 1 . no keyword in variable name
+		 2 . no space or gap in variable name 
+		 3 .  no quotation 
+		 4 . can not start with a number  but number other than the first letter is allowed . 
+		 5 .  name is case sensitive
+
+		 6 . write a long variable name {
+			1 . underscore or snake case
+			2 . second word first aplhabet uppercase or camel case
+			3 . every word first alphabet could be uppercase or pascal case
+		 }
+
+		 7 . keyword is case sensitive 
+
+		 8 . can not ue any character 
+
+
+	17.7 : Know the fundamentals of JS Numbers
+
+		 here we get to know that we shouldnt have write number in the quotation . as javascript take it as the string value .  again we learn about the purse keyword .  here we can convert a string or string to number or anything conversion can be done using the parse .again we learn about the tofixed keyword . it confirmed us it convert a define number like 1.12 whereas it is 1.1234.
+
+	17.8 : Introduction to arithmetic operators
+
+		 here we learn about the operators .addition , subtraction , multiplication , division , modulus .
+
+	17.9 : Mathematical operation shorthand
+
+		here we learn another thing called expotential .
