@@ -1,12 +1,35 @@
 /***
 
-you have two numbers in two variables, called: num1, num2
+Ticket fare Calculator
+    - Children (age < 10): free
+    - Students get a 50% discount
+    - Senior citizens (age >= 60) gets a 15% Discount
+    - Otherwise Regular ticket fare 800 tk
+*/
 
-now declare a variable called result. 
-if num1 is bigger than num2 then result will be double of num1. if not, then the value of the variable result will be the sum of num1 and num2.
+let age = 9;
 
-write a simple if-else. 
+let designation = "students";
 
-also, write it using ternary operator.
+let regularFare = 800;
 
- */
+let discountFare;
+
+if(age<=10){
+    console.log("No fare needed.")
+}
+else if(age>=10 && age<=60 && designation == "students"){
+    // 50% discount
+    discountFare = (regularFare * 50/100)
+    console.log("50% discount :" + discountFare);
+    console.log("fare : " + (regularFare-discountFare))
+}
+else if (age>=60){
+    discountFare = (regularFare * 15/100)
+    console.log("15% discount :" + discountFare);
+    console.log("fare : "+ (regularFare-discountFare))
+}
+
+else{
+    console.log(regularFare)
+}
