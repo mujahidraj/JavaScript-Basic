@@ -128,8 +128,21 @@ Module - 18 : Fundamental concept of Conditionals
 
     18.9 : (advanced) Logical Not Operator
 
-        
+        here we learn about the optional thing . like is the value is true or false . then we dont have to assign the logic just use the variable name only .   again we get to know a character "!". this character indicate not . so if !true = false , if !false= true ..
+        so this is called logical not operator . 
+        1. negation operator 
+        2 . logical complement
+        3 . flips the value of the boolean .
+        4 . if the value is true , return false .
+        5 . if the value is false , return true .
 
+        again we get to know that empty value is a false value .
+
+    18.10 : Homework and Making Decisions in your code
+
+        here we get to know why we use the condition . 
+        1. control the behavior
+        2 . determine whether or not pieces of code can run
 
 
 
