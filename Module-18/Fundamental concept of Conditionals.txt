@@ -30,6 +30,108 @@ Module - 18 : Fundamental concept of Conditionals
         like ------
 
         if(condition){
+            execute code if the condition above is true 
+        }
+        else {
+            execute code if the condition above is false
+        }
+
+    18.5 : Multiple condition Logical Operators(&&, ||)
+
+        here we learn about the multiple conditional if else . like if there is multiple condition . then we can write the condition in different style ... such as ....
+
+        if (condition && condition){
+            execute code
+        }
+
+        or 
+
+        if(condition || condition){
+            execute code
+        }
+
+        or complex condition
+
+        if((condition && condition) || condition){
+            execute code
+        }
+
+
+        again we learn about like if we use the "=" this is works as value assign . but "==" means condition check .
+
+    18.6 : Multi level If-else if-else condition
+
+        here we learn about the if else ... else if...else condition . that mean multilevel condition . so th structure is ....
+
+        if (condition){
 
         }
+
+        else if (condition){
+
+        }
+
+        else if (condition && condition){
+
+        }
+
+        else {
+
+        }
+
+
+    18.7 : Nested if-else condition
+
+        here we learn about the nested condition or nested if else .
+
+        structure like ....
+
+        if(condition){
+            if(condition){
+                if(condition){
+
+                }
+                else{
+
+                }
+            }
+            else{
+
+            }
+        }
+        else if(condition){
+            if(condition){
+
+            }
+            else{
+
+            }
+        }
+        else{
+
+        }
+
+    18.8 : (advanced )If-else shorthand Ternary Operator
+
+        we learn about the ternary operator .
+        ternary means three parts.
+        to write the shorthands we have to write like ....
+
+        simple ternary :
+        condition ? do something when true : do something when false  
+
+        normal ternary :
+        variable condition ? do something when true : do something when not true .
+
+        Semi advanced ternary :
+        variable condition ? condition ? do something when true : do something when false : do something when false 
+
+    18.9 : (advanced) Logical Not Operator
+
+        
+
+
+
+
+
 
