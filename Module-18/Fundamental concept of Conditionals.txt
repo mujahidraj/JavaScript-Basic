@@ -1,0 +1,35 @@
+Module - 18 : Fundamental concept of Conditionals
+
+    18.1 : Compare variables and comparison operators
+
+        here we recap our previous module things . like variable , three types of variable . string , boolean and number . naming conventions like single words , no quotes , no gap or dash , can not start with a keyword ,cannot be a keyword . prefer camelCase .we learn about some of the operations like addition , subtraction , multiple , division . again we learn about the IsNaN and null.
+
+        again we learn about the some comparison such as ,
+
+        1. bigger : >
+        2. less : <
+        3. Equal : ==
+        4. greater than or equal : >=
+        5.  less than or equal : <=
+        6. not equal : !=
+        7. add : &&
+        8. or : ||
+
+    18.2 : Introduction to Conditionals
+
+        here we learn more about the comparison . like great than , less then , greater than equal , less than equal , equal . again we learn about the "==" .this mean it will compare only the value . again "===" this mean it will compare the value and the type also . again we learn about the not equals to.  
+
+    18.3 : If_else statement (visualization)
+
+        here we learn about the if else , like if this then you can go there else mean otherwise you cant . again we learn if else, else if else if condition . again we learn about the nested if else .
+
+    18.4 : Conditional branching if Else Condition
+
+        here we learn about the structure of if else . 
+
+        like ------
+
+        if(condition){
+
+        }
+
