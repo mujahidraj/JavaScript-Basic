@@ -10,3 +10,27 @@ if you get less than 80 go to home and sleep and act sad
 Note: 
 use nested if-else-if-else
 */
+
+let myMark = 79 ;
+
+let myFriend =80;
+
+if(myMark >80){
+
+    if (myFriend>80){
+        console.log("Let's go for a lunch.")
+    }
+    else if (myFriend<80 && myFriend >=60){
+        console.log("good luck next time.")
+    }
+    else if (myFriend<60 && myFriend>=40){
+        console.log("I didn't see his messages.")
+    }
+    else{
+        console.log("I blocked him.")
+    }
+
+}
+else {
+    console.log("i get back to my home and I am acting sad.")
+}
