@@ -22,7 +22,7 @@ Module-19 : fundamental concept of loops
             number1++ / number1+=1 / number1 = number1 + 1 
        } 
 
-       so the struacture is : 
+       so the structure is : 
 
        while(condition){
         body of loop
