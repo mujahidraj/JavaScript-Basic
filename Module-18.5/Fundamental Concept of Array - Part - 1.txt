@@ -1,0 +1,57 @@
+Module - 18.5 : Fundamental concept of Array part -1 
+
+    18.5.1 : Store more than one value in a variable using Array
+
+        here we get to know about the array . array is a container kind of . this  contain some kind of list .
+        structure :
+
+        const array = [value1 , value2 , value3 , value4 , ..........]
+
+        array can be number , string , boolean , float or other . also array can be mixed.
+
+    18.5.2 : Visualize the concept of an array
+        
+        here we get to know that every value is store in each index . like if we want to know that what is the value of the second item . that mean we are looking for the index 1 value . that mean index start from the 0 . every value is store in the index each . again if w4 want to know like how many items are there we can simply use the length keyword . which tells us that what is the length of the array . 
+
+    18.5.3 : Array length, index, Get and set by index
+
+        here we get to know the array length . how to get the length of the array . thats mean total element number . again we get to know about index number . index number start with the number 0 . after that it increase by 1 . 
+        we can also set the value of an element . for that we have to use the index number with array name . such as ...
+
+        array[3]= 4;
+        here it will either assign the value of index 3 or replace the value of the index 3 .
+
+     18.5.4 : Add and remove elements from arrays using push, pop, shift and unshift
+
+        here we get to know about the push . using the push we can inject more element in the array . its like pushing a element in the array . 
+        structure : 
+        arrayName.push(value);  
+
+        again we can pop a element from  the array using the pop . the pop will remove the last element from the array . if there is no last element it will return the undefine . 
+
+        again we can get the value such as which element is poping . we can see just thoroughly console that . 
+
+        we get to know about the shift . where it did the reverse work of pop . it removes the first element of the array .
+
+        again we learn about the unshift . where it works as the reverse of push . it will add element in the first of the array .
+
+    18.5.5 : All about basic array methods, isArray
+
+        here we get to know about the includes . it kind of searching something in the array . it structure is like ...
+
+        array.includes("Raj");
+        this include is case sensitive . thats mean we have to be precise in the include section . its work as searching something in the array . 
+        
+        here we get to to another thing called indexOf . this work for searching the index number of a element . stucture :
+
+        array.indexOf ("Raj")
+        another thing about the indexOf is if there is nothing which we are searching of or the element index we are searching for it will return -1 . as index start with the 0 . 
+
+        again we can check is the variable is a array or not suing the Array.isArray(variableName). by using this we can easily find out that is it array or not . 
+
+       another thing we get to know is the join() . using this we can add character in between the array element . 
+
+       again concat() . this combine two array together . 
+
+       again slice() . this divide the array in two part .
+         
