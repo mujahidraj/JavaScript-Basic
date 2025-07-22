@@ -4,7 +4,6 @@
 
  */
 
-/*programming hero*/
 
 let num = 0;
 
