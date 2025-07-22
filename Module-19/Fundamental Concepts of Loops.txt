@@ -1,0 +1,40 @@
+Module-19 : fundamental concept of loops
+
+    19.1 : What is a Loop, explore for loop
+
+        first we are gonna recap all the other thing we have learn throughout this journey .here we get to know that const is a variable which value cannot be changed except special cases . let is a variable which value can be change and var is a variable which we not gonna use it anymore . 
+        again we learn about the condition . if else condition . and after that we learn about the array which is a container of some elements . 
+
+        we learn for loops here . like how to print array of elements . 
+        structure : 
+
+        for ( const array of array){
+
+        }
+        this approach called for of approach .
+
+    19.2 : Introduction to While Loop
+
+       here we learn about the while loop. so when we are gonna use the while loop we must have ue any kind of condition . like 
+
+       while (number1 < number2){
+            executable code 
+            number1++ / number1+=1 / number1 = number1 + 1 
+       } 
+
+       so the struacture is : 
+
+       while(condition){
+        body of loop
+       }
+
+        if we dont use any kind of condition or incremental or decremental it will run in a infinite loop and crash the system . again while loop is a loop which is use to make a loop. 
+
+
+    19.3 : Problem solving with While Loop
+
+        here we learn about the while loops more . here we do some problem solving like sum of 1 to 10 , odd number from 1 to 100 and even numbers .
+
+    19.4 : Introduction to For Loop
+
+        
