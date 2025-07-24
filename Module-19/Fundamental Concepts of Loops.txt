@@ -37,4 +37,22 @@ Module-19 : fundamental concept of loops
 
     19.4 : Introduction to For Loop
 
-        
+        here we get to know about the for loop .how to write for loop . stracture : 
+        for(loop variable ; loop condition ; variable change){
+            executable code
+        }
+        there is little difference between the for loop and while in writing but work is kind of same . for example :
+        loop variable
+        while(loop condition){
+            executable code 
+            loop variable change 
+        }
+
+        we have the loops using the for loop .
+        there we two type of loops like a incremental loop and decremental loop .
+
+    19.5 : Problem solving with For Loop
+
+        here we learn how the incremental loop and decremental loop works using the run and debug with the visual code editor . we can do the decremental with the while loop also . 
+
+    19.6 : 
