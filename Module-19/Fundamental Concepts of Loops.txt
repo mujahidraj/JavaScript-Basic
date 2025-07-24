@@ -55,4 +55,51 @@ Module-19 : fundamental concept of loops
 
         here we learn how the incremental loop and decremental loop works using the run and debug with the visual code editor . we can do the decremental with the while loop also . 
 
-    19.6 : 
+    19.6 : Different ways to use loop
+
+        here we get to know about different ways to use the for loops and other loops .
+
+    19.7 : When to use a break and continue
+
+        break is used to make the loop stop . that mean if we want to stop any loop in a specific page . the  we can use the break keyword to stop the loop . 
+
+        structure : 
+
+        for(){
+            code
+            if(){
+                break
+            }
+        }
+
+        we can yse that in the for loops and also in the while loops . 
+
+        here another thing called continue . continue means skip rest of the code for the iteration . that mean . if we use the continue it will skip the iteration and executable code inside the loop will automatically rusticated and continue for the next iteration .  and break means  break the iteration till the condition is fulfill . 
+
+            structure : 
+
+        for(){
+            code
+            if(){
+               continue
+            }
+        }
+
+
+    19.8 :Introduction to Do While Loop
+
+        here we get to know about the do while loop . this work in a particular case . we almost not use that but sometime we will use that . 
+        the main thing of the do while loop is it always execute the first output doesn't matter the while condition is fulfill or not . 
+
+        structure : 
+
+        loop variable 
+        do{
+            executable code 
+            variable change 
+        }
+        while(condition)
+
+    19.9 : Difference between types of loops Module Summary
+
+        here we overview all the things we get to know from this module .
