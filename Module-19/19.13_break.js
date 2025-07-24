@@ -3,8 +3,20 @@ Write a loop that goes from 1 to 100, but stops (using break) when it encounters
 */
 
 for(let i=1;i<=100;i++){
-    if((i%2===0)*i){
+
+    
+    if(i*i==4){
+         console.log(i*i)
         break
+       
     }
-    console.log(i)
+ 
 }
+
+// for (let i = 2; i <= 100; i++) {
+//     if (Math.sqrt(i) % 1 === 0) { // Check if i is a perfect square
+//         break;
+//     }
+//     console.log(i);
+// }
+
