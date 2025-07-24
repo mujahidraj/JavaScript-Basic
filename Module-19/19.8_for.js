@@ -12,10 +12,10 @@
 // subtask 1
 
 let sum=0;
-// for(let i=91;i<=129;i+=2){
-//     sum+=i;
-// }
-// console.log(sum)
+for(let i=91;i<=129;i+=2){
+    sum+=i;
+}
+console.log(sum)
 
 // subtask 2
 
