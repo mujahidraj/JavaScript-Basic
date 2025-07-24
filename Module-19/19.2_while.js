@@ -1,20 +1,11 @@
-/***
 
-Subtask-1:
+// Subtask-1:
 
-Find all the odd numbers from 61 to 100.
+// Find all the odd numbers from 61 to 100.
 
- */
+// Subtask-2:
 
-
-/***
-
-Subtask-2:
-
-Find all the even numbers from 78 to 98.
-
- */
-
+// //Find all the even numbers from 78 to 98.
 
 // subtask - 1
 let num = 60;
