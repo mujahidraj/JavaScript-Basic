@@ -11,7 +11,7 @@ Module-20 : Fundamentals of String & Objects
 
         here we get to know that string id case sensitive . there is 3 type of cases . such as ...
         1 . mixedcase : here is uppercase and lower case is mixed .
-        2 . lowercase : to use that we have to use toLower(). this convert all the uppercase alphabe tinto lower case ,
+        2 . lowercase : to use that we have to use toLower(). this convert all the uppercase alphabet tinto lower case ,
 
         3 . UPPERCASE : to use the uppercase we have to use toUppercase() . this convert all the lowercase alphabet into the uppercase alphabet . 
 
@@ -25,7 +25,7 @@ Module-20 : Fundamentals of String & Objects
         another thing is called split . this slice can slice down a single word or alphabet or anything in a array . if we use split () like this it will make the whole string in a array . but if we use split('') like this it will take every single alphabet . again if we use the split(' ') like this it will take every word counts .
         thats mean whatever we use in the split it will divide according to this . 
         her we learn another thing called join . using the join we can make a join the string value together . 
-        agsin er learn about the concat . using concat we can add two string . like concat(string_name)
+        again er learn about the concat . using concat we can add two string . like concat(string_name)
         another thing is called includes . this keyword will find out the specific words from the string value . 
 
     20.4 : Reverse a String in Three different ways
@@ -87,7 +87,7 @@ Module-20 : Fundamentals of String & Objects
         we can also change the value of the object property .  for that simply we have to write ...
         objectName.propertyName = changed value ;
         we can do that in another method :
-        object['peopertyName']=changedValue;
+        object['propertyName']=changedValue;
 
         so we can get and update using the dot notation or bracket notation .  
 
@@ -95,8 +95,46 @@ Module-20 : Fundamentals of String & Objects
 
     20.8 : Keys, Values, nested objects and delete
 
-        
+        here we can get the keys using the object.keys();
+        using the keys keyword we can get the all property of the objects .
 
+        we can get the values of the properties using the object.values(); . so using the values keyword we can get the values of the properties of the object . 
+
+        nested object is where there is a object inside a object and we can access that . we can access that using the objectName.secondObjectName.propertyName.
+        even we can update the value of a property which is already a nested object property . 
+        we can access a object inside a object and there specific value like a nested object's property we can get that using the index number . 
+        even if it is not a nested still we can get a specific value using the index number . 
+
+        again we can delete a property of a object using a delete keyword . structure :
+
+        delete objectName.property name . 
+
+    20.9 : Loop an object and Ways to declare an Object
+
+        here we get to know that we can use the loop to see the object property and object value . 
+        again we get to know that for in is used for the object and for of is use for the array . 
+
+        so for that we can use the for of to see the property and after that we can use the property for value . 
+
+        again we can use the object,keys() to find out the property and after that we can use the for in in the variable that store the object,keys() . then we can get the value of those properties . 
+
+        we can declare object in several ways . such as ...
+
+        1 . const objectName = {propertyName : value , .....}
+
+        2 . const objectName = new object({propertyName : propertyValue,....})
+
+        3 . const objectName = object.create({propertyName : propertyValue})
+
+    20.10 :  Loop an object and Ways to declare an Object
+
+        here we get to know what is object . object is an unordered collection of key-value pairs . each key-value pair is called a property .
+        an entity having state and behavior (property and method)
+
+        array is a ordered collection .
+        array has to be declared in a third brackets . in array data can be access using the numerical index . whereas object values are accessed calling keys .
+
+        
 
 
 
