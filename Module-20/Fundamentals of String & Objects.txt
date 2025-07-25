@@ -1,3 +1,102 @@
 Module-20 : Fundamentals of String & Objects
 
-    20.1 : 
+    20.1 : Introduction to string and string vs array
+
+        her we get to know about the string . how can we declare string . there is a 4 option to declare the sting . 1 . we can write the string value in single quote ' '. 2 . we can write string in double quote " " . 3 . we can write the string in the backtick ` `. and 4 . we can write string as an object new String (''). 
+
+        string can be count as the array . like we can use the length in ths string . when we can use the index to determine the specific word using that . its behave like a array but actually its not a array . string is a immutable . but array is a immutable . immutable mean it can be changed . 
+
+
+    20.2 : String Comparison lowercase uppercase and trip
+
+        here we get to know that string id case sensitive . there is 3 type of cases . such as ...
+        1 . mixedcase : here is uppercase and lower case is mixed .
+        2 . lowercase : to use that we have to use toLower(). this convert all the uppercase alphabe tinto lower case ,
+
+        3 . UPPERCASE : to use the uppercase we have to use toUppercase() . this convert all the lowercase alphabet into the uppercase alphabet . 
+
+        there is another thing called trim . this trim can emit the whitespace from the start and the end  . but not from the inside of the string . trim can emit the whitespace from the string . 
+
+    20.3 : String Slice, Join, Concat and includes
+
+        string is a sequence of character . 
+        here we learn another thing called slice . using this we can take specific thing from a string using the slice . the structure : ......slice(starting index , ending index) . there is another thing to do this is str .
+
+        another thing is called split . this slice can slice down a single word or alphabet or anything in a array . if we use split () like this it will make the whole string in a array . but if we use split('') like this it will take every single alphabet . again if we use the split(' ') like this it will take every word counts .
+        thats mean whatever we use in the split it will divide according to this . 
+        her we learn another thing called join . using the join we can make a join the string value together . 
+        agsin er learn about the concat . using concat we can add two string . like concat(string_name)
+        another thing is called includes . this keyword will find out the specific words from the string value . 
+
+    20.4 : Reverse a String in Three different ways
+    
+        here we learn about the for of loop . its is very necessary to know the array element . just like ...for(const letter of letters){
+            executable code 
+        }
+
+        that mean it will store elements in the letter from the letters array . 
+
+        we can reverse a string using the reverse = letter + reverse;
+
+        again we can use the for loop or for of loop for find the reverse thing . 
+
+        again we can do in another method . such as first use the split then reverse then join . using this we can achieve the reverse string from the string variable . 
+
+    20.5 : Introduction to Objects properties and values
+
+        object is the non primitive data type or secondary data type . array is a kind of object . object is a container of data type . 
+
+        the structure of object is ...
+        const object_name ={
+            object_item1 : item_value;
+            object_item2 : item_value;
+            object_item3 : item_value;
+            object_item4 : item_value;
+
+        }
+        there could be object inside the object .  there could be string , number , boolean or other data types  .
+
+        inside things of the object is called the object property and value is called the property value .
+
+    20.6 : What is Object Animated video
+
+        object is a variable . and we can store more the one variable inside the object variable . 
+        we can store many information in a single variable . the label of the object helps use to arrange the information in a formal ways .
+
+        object can also hold the function too . any kind function can be hold by the object . 
+
+        every information should be store suing the comma after entering the information .
+
+        function inside a object is called the method .
+
+    20.7 : Multiple ways to get & set object properties slide
+
+        here we learn how to print a object . jsut simply print that . again if we want to print a specific property then we have to use the dot notation or dot symbol access . that mean ....
+        console.log(objectName.propertyName)
+
+        even we can store a value of a property for a object inside a variable . we can do that like ....
+        variableName = objectName.propertyName; 
+
+        again we can access a object property using the third bracket method . so for that there is a another structure like ....
+        console.log(objectName['propertyName'])
+        another one is ...
+        const variableName = objectName['propertyName']
+
+        again we can use the single quotation and name inside the object . but we cannot access that using the dot notation . for that we have to use the third bracket notation . 
+
+        we can also change the value of the object property .  for that simply we have to write ...
+        objectName.propertyName = changed value ;
+        we can do that in another method :
+        object['peopertyName']=changedValue;
+
+        so we can get and update using the dot notation or bracket notation .  
+
+        we can get and update in another way like w can a=store the property name in a variable and then print it using the dot .
+
+    20.8 : Keys, Values, nested objects and delete
+
+        
+
+
+
+
