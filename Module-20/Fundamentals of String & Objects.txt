@@ -124,7 +124,7 @@ Module-20 : Fundamentals of String & Objects
 
         2 . const objectName = new object({propertyName : propertyValue,....})
 
-        3 . const objectName = object.create({propertyName : propertyValue})
+        3 . const objectName = Object.create({propertyName : propertyValue})
 
     20.10 :  Loop an object and Ways to declare an Object
 
