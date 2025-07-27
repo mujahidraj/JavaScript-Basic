@@ -2,4 +2,37 @@ Module - 20.5 : Fundamental concept of array part-2
 
     20.5.1 : Array Traversal using for and while Loop
 
-        
+        There is many kind of loops such as ...
+        1 . for loops
+        2 . while Loop
+        3 . do while loops
+        4 . for of ---> for array
+        5 . for in ---> for object
+
+        if we want to access a index of array where there is no element it will show the undefine . 
+
+        we can traverse the array using the for loop and also with the while loop . and also the for of loops . 
+
+    20.5.2 : Reversing an array with/without reverse method
+
+        We can do the array reverse using the reverse method . this is a function which can be used to reverse the array or string or the object .
+
+        again we can use the unshift or shift to reverse the array . 
+
+        here unshift means entry to the array and the shift meaning the exit from the array . 
+
+    20.5.3 : Sort an array problems and solution
+
+        here we get to know about the sorting . there are two type of sorting . 
+        1 . ascending ---> smaller to larger .
+        2 . descending ---> larger to smaller 
+
+        we can use sort() function to sort a array . but in case of larger number sort works as an alphabetical order . so the sorting function use the ascii code for a sorting . the sort function will not works properly .
+        we can solve that using some function . for that .....
+        For ascending ---> sort(function (a,b){return a-b})
+
+        for descending ---> sort(function (a,b){(return b-a)})
+
+    20.5.4 : here we recapping the whole module . like how we traverse the array using the for of loop , for loop , while loops . 
+    we can reverse the array . using the reverse function. again e can do that using the manual method . After that we learn about the sorting . and the sorting function . 
+    after thatr we get to know about the practice task on the array looping .
