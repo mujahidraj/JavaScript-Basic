@@ -16,45 +16,45 @@ Module-21 : Fundamental concepts of Functions
         function can be call like this ....
         functionName (argument/parameter);
 
-    20.2 : Function Intro with animation
+    21.2 : Function Intro with animation
 
         function in javascript is a thing that can perform a specific task when it is called . 
 
         function can console log 
         and also it will return the actual output .
 
-    20.3 : Function parameter, handle multiple parameters
+    21.3 : Function parameter, handle multiple parameters
 
         here we get to know about the parameter . parameter is a function can take value from the outside the function and work with that value . so if we called a function who has a parameter we have to send the value of a that specific functions parameter . and that parameter value will work in the function . parameter can be single or multiple . 
 
         when we will call a function we have to give a exact number of parameter that the function could hold . not the less not the more . the exact number of parameter the function can hold in the parameter .
 
-    20.4 : How Function works and argument vs parameters
+    21.4 : How Function works and argument vs parameters
 
         there is a little difference between arguments and parameter . parameter is when we create a function and use a parameter of that function . that is call parameter . and when we call the function using some value . those values are called arguments . 
 
         again we can send variable name as a arguments . we can send function as a argument , we can send values in arguments . 
 
-    20.5 : Function return and set return value to a variable
+    21.5 : Function return and set return value to a variable
 
         return is a     keyword that says the function code is over . there will be no coding in this area  and it also return the result of the function . like what is the result or what is the outcome of the function execution code it will be result to the main part using the return keyword . 
 
         we can store the calling of the function in a variable and then we can print the variable so that we can see the output . 
         so we can say that a variable can store the value of a function or the return value of a function . 
 
-    20.6 : Recap and conditional return of odd and even
+    21.6 : Recap and conditional return of odd and even
 
         argument passing works as maintaining the sequence . and return will return the value of functions works . 
         return can return as it can do anything returning the values . 
 
         return also works according to the conditions . 
 
-    20.7 : Different types of parameters for a function
+    21.7 : Different types of parameters for a function
 
         parameter can be number , string , boolean , array or can be object .  
 
 
-    20.8 : Sum of all numbers in an array using function
+    21.8 : Sum of all numbers in an array using function
 
         her we  learn how we can write function step by step . such as ...
 
@@ -65,11 +65,11 @@ Module-21 : Fundamental concepts of Functions
         step 4 : pass the parameter (s) and check whether parameter is passed is a proper format  
         step 5 : do the function tasks (step by step)
 
-    20.9: Return all the even numbers of an array
+    21.9: Return all the even numbers of an array
 
         here we just get to know how we can find out the even numbers and sum of even number using the function . 
 
-    20.10 : Function Summary and Practice Tasks
+    21.10 : Function Summary and Practice Tasks
 
         here we recapping our modules . during the module we learn about the function . we learn what is function . after that we get to know about functions parameter and argument . what is the parameter and what is the arguments . and after that we get to know about the return keyword . what we can do using the return keyword and how to do that return of the function value . we can do any thing inside the function . 
 
