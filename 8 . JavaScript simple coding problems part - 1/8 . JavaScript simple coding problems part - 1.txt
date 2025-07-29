@@ -2,6 +2,79 @@ Module-22 : JavaScript simple coding problems part - 1
 
     22.1 : JS Concepts recap and var, let, and const
 
+        here we get to know about the variable . there is 3 type of variable ....
+        1 . var ---> we wont use that
+        2 . const ---> constant . cant not be change
+        3 . let ---> changeable.
+
+        variable can be differnet types ... such as ...
+        1 . number 
+        2 . string 
+        3 . boolean 
+        4 . undefine 
+        5 . null
+        6 . object
+        7 . array
+
+        there is 2 typpe of category of variable ...
+        1 . primitive ---> number , string , boolean , undefine , null
+        2 . non primitive ---> array and object 
+
+        N.B: array is a object but it works differently 
+
+        again we get to know about the conditionals . 
+        1 . >
+        2 . <
+        3 . >=
+        4 . <=
+        5 . ===
+        6 . !==
+        7 . &&
+        8 . ||
+
+        to use the condition we have to use the if(){}else{}
+
+        again we get to know about the array . array can be string , number , object , function , boolean . array's index start from the 0 .
+        there is something about the array like ... push , pop , unshift , shift , include , plit , slice , splice and many more 
+
+        again we get to know about the loop . we will use the for of and its recommended . 
+        1 . for 
+        2 . while 
+        3 . for of 
+        4 . for in
+        5 . foreach
+        6 . do while
+
+        related to loops ..
+        1 . break
+        2 . continue
+
+
+        here we get to know about the object .
+        object hold property and value . object can hold ... string , number , boolean , array , object . object can be access by dot notation and bracket notation . 
+
+        here we get to know about the function . structure ..
+
+        function functionName (){
+            code
+            return
+        }
+        call function 
         
+        const can be hold string , number , boolean and array . if we use the const we cannot change it leter . but we can push pop value of array . 
+
+        let can be change . 
+
+    22.2 : Unit Convert Inch to Feet, miles to kilometre
+
+        
+
+
+
+
+        
+
+        
+
 
     
