@@ -65,9 +65,10 @@ Module-22 : JavaScript simple coding problems part - 1
 
         let can be change . 
 
-    22.2 : Unit Convert Inch to Feet, miles to kilometre
+    22.2 : Unit Convert Inch to Feet, miles to kilometer
 
-        
+         
+
 
 
 
