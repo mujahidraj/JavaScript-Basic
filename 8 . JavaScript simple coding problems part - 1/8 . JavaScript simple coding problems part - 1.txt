@@ -7,7 +7,7 @@ Module-22 : JavaScript simple coding problems part - 1
         2 . const ---> constant . cant not be change
         3 . let ---> changeable.
 
-        variable can be differnet types ... such as ...
+        variable can be different types ... such as ...
         1 . number 
         2 . string 
         3 . boolean 
@@ -16,7 +16,7 @@ Module-22 : JavaScript simple coding problems part - 1
         6 . object
         7 . array
 
-        there is 2 typpe of category of variable ...
+        there is 2 type of category of variable ...
         1 . primitive ---> number , string , boolean , undefine , null
         2 . non primitive ---> array and object 
 
@@ -66,6 +66,38 @@ Module-22 : JavaScript simple coding problems part - 1
         let can be change . 
 
     22.2 : Unit Convert Inch to Feet, miles to kilometer
+
+        problem solving 
+
+    22.3 : Check whether a year is a Leap Year or not
+
+        problem solving
+
+    20.4 : Calculate the average of the odd numbers in an array
+
+        problem solving
+
+    20.5 : Remove duplicate items from an array
+
+        problem solving
+
+    20.6 : Math, abs, round, ceil, floor, and random number
+
+        here we get to know about the Math . here we can do the min and max using the math function . and using that we cna find out the min and max . and math is a function. using the math function we can do so many math functions like , min , max , abs  , pi , sqrt2  and many more ..again we learn about the round , floor , ceiling . 
+        again we learn about random number . this random number generate random numbers. 
+
+    20.7 : A Simple introduction to JS Date and time
+
+        we can set date using the new Date(); function . using that we can get the current dates . 
+        but if want to access some date which is a string it can be written inside the data function parameter . but there is a problem in that . if we use string as a date we have to access using the month's index number and days index number . 
+
+        we can get the month and day .  using the index number . but if is a number value we can access it using the proper index number . so if we set the month it will take it as a index number not the actual thing . we can set a exact moth using the setMonth() function . 
+        if we want to see that as an string . we can use the toLocaleString() function . 
+
+        to see the date as an actual style like in a USA style or bangladeshi style we have use en-GB inside the tolocalestring() function . 
+
+
+
 
          
 
