@@ -12,9 +12,22 @@
 
 // sample-input: 
 
-// numbers = [5,6,11,12,98, 5]
+function countNum (arr,finding){
 
-// find: 25
+    let count = 0;
 
-// output: 0
+    for(const num of arr){
+        if(num === finding){
+            count++
+        }
+    }
+    return count;
+
+}
+
+let array = [,12,3,4,4,3,2,5,4,5,4,9,8,4]
+
+let find =11 ;
+
+console.log(countNum(array,find))
 
