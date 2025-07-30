@@ -96,6 +96,15 @@ Module-22 : JavaScript simple coding problems part - 1
 
         to see the date as an actual style like in a USA style or bangladeshi style we have use en-GB inside the tolocalestring() function . 
 
+        here we get to know about some month to second conversion . using the unix epoc . 
+
+    20.8 : Swap variable, swap without temp, destructing
+
+        here we use a temp . do store a value and then change the value and then set the temp value to the another . using that we can to the swapping . 
+
+        we can use destructure to swap the variable . 
+
+
 
 
 
