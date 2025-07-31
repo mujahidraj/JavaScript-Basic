@@ -23,3 +23,7 @@ Module-23 : JavaScript simple coding problem part -2
     23.6 : (advanced) Multi-layer discount price calculation
 
         problem solve
+
+    23.7 : Simple calculator to call function inside a function
+
+        simple calculator using the call function
