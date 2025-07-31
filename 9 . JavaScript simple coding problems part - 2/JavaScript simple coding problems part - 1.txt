@@ -2,4 +2,14 @@ Module-23 : JavaScript simple coding problem part -2
 
     23.1 : Can you find out who will get the delicious cake?
 
-        
+        problem solving
+
+    23.2 : Who is the tallest? Find the max number in an array
+
+        problem solving
+
+    23.3 : Use add and multiplication to calculate wood requirements
+
+        problem solving
+
+    24.4 : 
