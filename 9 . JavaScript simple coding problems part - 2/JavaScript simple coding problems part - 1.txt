@@ -27,3 +27,11 @@ Module-23 : JavaScript simple coding problem part -2
     23.7 : Simple calculator to call function inside a function
 
         simple calculator using the call function
+
+    23.8 : Handle unexpected function input parameter error
+
+        here we can validate the parameter . 
+
+    23.9 : Module Summary and Practice Tasks
+
+        recapping the whole module
