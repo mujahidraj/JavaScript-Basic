@@ -12,4 +12,14 @@ Module-23 : JavaScript simple coding problem part -2
 
         problem solving
 
-    24.4 : 
+    23.4 : Find the cheapest phone from an array of phone objects
+
+        problem solve
+
+    23.5 : Calculate the total cost of the products in a shopping cart
+
+        problem solve
+    
+    23.6 : (advanced) Multi-layer discount price calculation
+
+        problem solve
