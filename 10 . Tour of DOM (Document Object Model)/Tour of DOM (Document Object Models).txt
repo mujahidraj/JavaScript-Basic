@@ -1,0 +1,55 @@
+Module-25 : Tour of DOM (Document Object Models)
+
+    25.1 : What is DOM, Connect your HTML file with js 
+
+       we can connect our html file with the js file using the script file .  for that we have to use the script tag . that can attach script file with the html . we can do that at the last of the body section . 
+
+       again we can do that in the same file using the script tag . 
+
+       we can see the document using the js . and console the document keyword . and we can see the information of the document .
+
+       the full form of DOM is Document object Model . there is three part . 
+       1 . html (mark up)
+       2 . css (style)
+       3 . Javascript (manipulate)
+
+        so the dom is ...
+        1 . the event for all html elements .  
+        2 . the methods to access all html elements 
+        3 . the properties of all html elements and all html elements as objects . 
+
+    25.2 : Traversing dom - getElementsByTagName
+
+        dom actually work as a bridge between the js and the HTML file . we can traverse the dom using the document.getlementby....... . we can get the inner thing using the inner.... .
+
+    25.3 : Traversing dom - getElementByClass VS getElementById
+
+        we can get something using the getElementById . using this we can get the following item using the id . thats mean if i want to catch a specific items that has an id . we can get that using the getElementById . 
+        we can use the getElementByClass . using this we can use the class main to access that in the js file . like the getElementById and get getElementsByTagName . if a element has a class name it can access through the getElementByClass . we can get the inner text using the innerText keywords . 
+
+        we can also change the text using the innerText keywords . using that we can also change the text or writing inside the class or id or tags . 
+
+        getElementByClass will return the value in array like object . not a specific array but a array like object . but the getlementbyid will return only the element not the array like object . 
+
+    25.4 : Traversing dom - getElementByQuerySelector, querySelectorAll
+
+        getElementsByTagName will return a array like object . if there is nothing it will return [] empty array . but getelementbyid will return a single thing . and it will return null . 
+
+        getElementByClass , getElementsByTagName , all these return in a htmlCollection . id will return a single thing . and getElementByQuerySelector or getElementByQuerySelectorAll return the nodeList . 
+        here getElementByQuerySelectorAll use the css selector to access the information from the html files . not the class , not id , not anything just css selectors for access the information .
+
+        the querySelector give us the single elements but querySelectorAll give a nodelist .  
+
+        html collection is dynamic and live . we can use the for of here . but in node list that is static , we can use the foreach here and many more differences of the html collection and the nodelist . 
+
+
+        so after all that we can say there is some option to get elements ....
+        1 . getElementsByTagName()
+        2 . getElementById()
+        3 . getElementsByClass()
+        4 . querySelector()
+        5 . querySelectorAll()
+
+        
+    
+
