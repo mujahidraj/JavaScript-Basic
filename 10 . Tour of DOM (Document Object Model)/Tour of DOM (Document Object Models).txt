@@ -50,6 +50,83 @@ Module-25 : Tour of DOM (Document Object Models)
         4 . querySelector()
         5 . querySelectorAll()
 
+    25.5 : Dynamic style, getAttribute, setAttribute, innerText, innerHTML
+
+        we can style the html elements or something using the .style.PropertyName = "styleName";
+
+        we can get the attribute of a elements using the getAttribute(); .  we can get a class list using the classlist keyword of javascript . we can add class and remove class using the variableName.classList.remove(className)/add(className);
+
+        in html we can set tooltips using the title attribute . 
+
+        again we can set the attribute using the setAttribute(attributeName ,attributeValue);
+
+        we can use the innerHTML to get the elements of the specific areas . 
+
+        the difference between the innerText and innerHTML .
+        1 . innertext is a the yext inside the element  . but we do that to get the html of the documents . 
+        2 . if there is a empty in the txt of the html . innertext will show that empty string . whereas we can see the html things using the innerHTML . 
+
         
+    25.6 : Styling dom properties, add and remove css class using JS
+
+        we can do the styling of the html file using the javascript file not from the css file . so to that we have to access that element using the documents . and take that and then w can style that using the style.propertyName = "Styles";
+        querySelectorAll or querySelector is recommended to this work bcz it select the css selectors for designing . 
+
+        we can style using the id too . like variableName.style.propertyName = "styles";
+
+        we can use a predefine class in the css s=file . using the classList. using the classList we can add and remove classes . so to use the predefine classes we can just add the classname using the classList list and then see the class design from the js file . but there is some issue in here . first of all the priority . we know that inline css is more powerful then the external css . so javascript add css as an attribute or inline css . if there is style from the JavaScript it will replace the external css and then use the inline css . so main thing is js use the inline css .if we want to use class and there is inline css .. the class design will be override . 
+
+        so we can do anything which is be done using the css . 
+
+    25.7 : NodeList, htmlcollection, parentNode, childnodes, createElement
+
+        here we get to know about the node . node in dom is a tree structure elements . there are many nodes ... like childnodes , parentNode, removenode and many more nodes are there  . 
+        childnodes is we can see the child of a elements . we can see the specific child through this . there is another thing called next siblings . we can see a specific childs next siblings using this keywords . 
+
+        we can create a element inside a element as a child . using the createElement("elementName");
+        we can insert text inside the new created  elements . using the variableName.innerText = "text...";
+        after that we can add that created element inside a element to use that .. wecan simple use the variable name of that element where we want to use that and then variableName.appendchild(newVariableName);
+        this will add the new element inside the element as a child . we can see the parentnode using the parentNode().
+
+
+    25.8 : Create HTML elements using Javascript and appendChild
+
+        to add something in a html ... for example ...
+        1 . where to add
+        const variableName = document.getElementById("id");
+
+        2 . what to add 
+        const variable2Name = document.createElement("newElementName")
+        variable2Name.innerText = "text";
+
+        3 . add the child 
+        variableName.appendChild(variable2Name);
+
+        we can add element in  another way . using the innerHTML . for that we have to create a variable and store the parent element . and inside the parent element we can directly use the innerHTML like...
+        variableName.innerHTML = (do the html code) .
+
+        here we get to know that the first script tag will run first after that another one will run . 
+
+    25.9 : Module summary (DOM Review)
+
+        here we get to know about the order of the js file . like first js file will execute first and after that second js file will execute . 
+        again we learn about that js can be integrate using two option . 1 . infile option and 2 . external file option . 
+
+        so we can access a tag using the getelementbytagname... we can also access specific class using the getElementByClass ... these are the htmlcollection . its a array like object .  after that we can get a id . for that we have to use the getElementById  . these will return a string . we  can design the contents using the javascript . for that we have use the variableName.style.propertyName = propertyValue . 
+
+        again we learn about the querySelector and querySelectorAll . these will select the css selectors and work on it .we also learn about the createElement(). 
+
+        if we use innerHTML to create new element . w have to write html code inside the back tick ~ ~ .
+
+
+
+
+
+
+        
+
+
+
+
     
 
