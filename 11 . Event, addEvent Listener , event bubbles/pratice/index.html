@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+
+<body>
+    <h1>Add your Comment please ...</h1>
+   
+   <div id="comment-div">
+     <h3>Mujahid Raj</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolor, quibusdam soluta repudiandae sapiente
+        harum saepe nesciunt doloribus fugit maxime laudantium laboriosam et dignissimos veniam blanditiis voluptatum
+        possimus nam sit? Maxime, dolor aperiam corporis, fuga ad corrupti quia asperiores ducimus amet non blanditiis
+        dignissimos sapiente esse mollitia illo voluptatem fugit.</p>
+    <h3>Fidbi Hasan</h3>
+    <p>Voluptatem commodi autem consequuntur odio recusandae voluptatum? Dolores error itaque incidunt, quasi, ea quae
+        nobis qui, id ex quis commodi accusamus veritatis quas unde. Porro dicta magni eum incidunt vitae rerum
+        aspernatur voluptate quo? Dolorum minus quae adipisci rerum? Veritatis impedit ipsam labore minima eum
+        perspiciatis veniam illum atque dolores.</p>
+    <h3>Asmaul Husna Mayad</h3>
+    <p>Vitae ea quas quia similique exercitationem quaerat voluptatibus quis ab quisquam, esse optio voluptates
+        inventore expedita, sit neque suscipit dolorum dignissimos. Veniam est quae laborum, animi atque beatae at nihil
+        vel maxime quia ipsum amet non nulla aliquid, quidem explicabo! Hic beatae officia repudiandae. Itaque
+        laboriosam necessitatibus consectetur quasi culpa.</p>
+   </div>
+    <input type="text" name="" id="user-name">
+    <textarea name="" id="comment-field" cols="90" rows="5"></textarea>
+    <button id="post-comment">Post</button>
+    <script>
+
+
+        document.getElementById('post-comment').addEventListener('click', function () {
+
+            const commentBox = document.getElementById('comment-field');
+            const commenterName = document.getElementById('user-name');
+            const paragraphContainer = document.getElementById('comment-div');
+
+            const name = commenterName.value;
+            const comment = commentBox.value;
+
+       
+
+            const h3 = document.createElement('h3');
+            h3.innerText = name ;
+
+            const p = document.createElement('p');
+            p.innerText = comment;
+
+            paragraphContainer.appendChild(h3);
+            paragraphContainer.appendChild(p);
+
+            commenterName.value = "";
+            commentBox.value = "";
+
+        })
+    </script>
+</body>
+
+</html>

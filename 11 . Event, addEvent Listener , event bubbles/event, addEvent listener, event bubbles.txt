@@ -1,9 +1,62 @@
 Module -26 : Event , addEventListener , event bubbles
 
-    26.1 : Basic of DOM all in one
+    26.0 : Basic of DOM all in one
 
         here we get to know . what is dow? how dom manipulate html , what is node , how node work , structure of dom , what is parent node , what is childnode . how to create , delete , remove , update html elements  and many more things . 
 
-    26.2 : What is Event, different types of event in web
+    26.1 : What is Event, different types of event in web
+
+        here we get to know about the event . event is when a thing will happen for a simple change in process . here we get to know about the onclick . using the onclick a event will happen after clicking the mouse . onclick can happen after clicking a mouse . 
+        a special thing we know that we can use the string value in the onclick but in a single quote . 
+
+    26.2 : Add onclick handler directly or via javascript
+
+        here we can use the onclick in a various way . like ...we can use the onclick inline . like onclick(functions);
+        again we can do that inside a js file. like we can define a function and then call it from the html onclick attribute . 
+        and there is another way to do that is call a element by getelementby id or getelementbyclss and then use that on onclick and then make a function and call the function . it actually not calling the function but to name of the function . 
+        another option is callit by document.something and then name a variable and then make a function which will be stored by the variable . 
+
+
+        1 . directly set on the element 
+        2 . make a function and then call it from the element attribute onclick .
+        3 . and there is another version . 
+
+    26.3 : Different ways to use addEventListener on a button
+
+        here we can use the eventListener using the addEventListener("typeofEvent",functionName );
+        using this we can use anykind of keys that can trigger the even t. but onclick only works on mouse click . 
+        another most useful way to use the addeventListener ...
+
+        document.getelementbyid('idname').addEventListener('click',function(){executable code});
+
+        we will use this sometime ...
+
+        const purpleButton = document.getelementbyid('make-purple');
+        purpleButton.onlick = function(){executable code};"
+
+        we will use that ....
+        in js :
+        function makered(){
+            executable code
+        }
+        in HTML : 
+        <button onlick="makered()">make red</button>
+
+        we will use this sometime ...
+
+        document.getelementbyid('make-green').addeventlistener('click',function(){
+            executable code;
+        })
+
+    26.4 : Most common ways to set Event Handlers
+
+        we can do anything using the addeventlistener or onlick to manipulate the html . we can update any kind of text using that . again we can add update text . we can update text from the input field . 
+
+        to get the value of the input field using the addeventlistener cannot use the innerText . so for that we have to use the value keyowrd . which will take the value of the input field and show that . 
+
+    26.5 : Create a comment box and display comment
 
         
+
+
+
