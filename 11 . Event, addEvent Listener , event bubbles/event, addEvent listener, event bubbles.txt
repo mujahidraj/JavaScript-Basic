@@ -72,4 +72,11 @@ Module -26 : Event , addEventListener , event bubbles
 
         Event bubble is if i were in a room and the room in a flat and that flat is in a building and that building in a area and that area in a another area . this order called the event bubble . s when we have click a function if there is any other function outside of that it will also be trriggered . this is called the event bubble . 
         to stop the event propagation we have tongive a parameter called event and then inside the function we have to write event.stopPropagation();
+        there is another option called stopImediatePropagation(); this will stop the bubble from the imediate events . but the stopPropagation() will stop the bubble but not the imediate one . 
+
+    26.8 : (advanced) Event delegate and benefit of Event bubble
+
+        
+
+
            
