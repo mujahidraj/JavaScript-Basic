@@ -56,7 +56,20 @@ Module -26 : Event , addEventListener , event bubbles
 
     26.5 : Create a comment box and display comment
 
-        
+        we  created a comment box using the thing we have learn throughout the module . 
 
+    26.6 : Simple github like delete confirmation button
 
+        here we first get to knoe about the mouseenter event . thats mean if a mouse enter a specific button or somewhere else event will triggered . 
+        another one is mousemove . this will work if the mouse if moved in a specific area . 
+        another one is called focus . this will focus the specific thing . 
 
+        we can get the event from the parameter . that mean which event is happening right now we can get that . and we also can get the events specific items . like targeted value of the events . here we leanr about 2 moe events . 1 . keyup which can show the targeted exact value but 2 . keydown it skip the lsat value .
+
+        we can enable or disable a button of a html . like if we use the placeholder . and there we didnt write the exact thing . 
+
+    26.7 : (semi-advanced) Event bubble and Stop propagating
+
+        Event bubble is if i were in a room and the room in a flat and that flat is in a building and that building in a area and that area in a another area . this order called the event bubble . s when we have click a function if there is any other function outside of that it will also be trriggered . this is called the event bubble . 
+        to stop the event propagation we have tongive a parameter called event and then inside the function we have to write event.stopPropagation();
+           
