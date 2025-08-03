@@ -1,0 +1,9 @@
+Module -26 : Event , addEventListener , event bubbles
+
+    26.1 : Basic of DOM all in one
+
+        here we get to know . what is dow? how dom manipulate html , what is node , how node work , structure of dom , what is parent node , what is childnode . how to create , delete , remove , update html elements  and many more things . 
+
+    26.2 : What is Event, different types of event in web
+
+        
