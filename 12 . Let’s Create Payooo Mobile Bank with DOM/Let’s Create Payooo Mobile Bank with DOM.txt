@@ -1,0 +1,15 @@
+Module-27 : lets create payooo mobile banking system 
+
+    27.1 : project and login form setup 
+
+        here we design our peoject first page using the daisy ui and the tailwind . and customised the daisy ui component . 
+
+    27.2 : add login event handler and prevent form default behavior
+
+        first of all we get to know about the autocomplete attribute . autocomplete used for tells the browser whether it should help the user by automatically filling in form field values based on previous entries . 
+        here we get to know about the preventDefault keyowrd . first of all we have to send a parameter inside the function called event and then inside the function we have to write event.preventDefault() . this will prevent the browser loading option which can allow the fill of the input field and then send the data . 
+
+    27.3 : Handle Login and redirect to the home page
+
+        here we get to know about the reedirection to the next page if the condition is matched . 
+        so for that we haev to use the window.location.href = "location". using this we are going to redirected to the next pages . 
