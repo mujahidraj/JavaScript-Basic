@@ -147,3 +147,51 @@ document.getElementById("bonus-button").addEventListener("click", function (even
 
 })
 
+document.getElementById("bills-button").addEventListener("click", function (event) {
+    event.preventDefault();
+
+    document.getElementById("pay-bills").style.display = "block";
+    document.getElementById("add-money").style.display = "none";
+    document.getElementById("payment-details").style.display = "none";
+    document.getElementById("cash-out").style.display = "none";
+    document.getElementById("transfer-money").style.display = "none";
+    document.getElementById("bonus").style.display = "none";
+
+    document.getElementById("pay-request").addEventListener("click", function (event) {
+        event.preventDefault()
+
+        const pin = document.getElementById("pin-bill").value;
+        if (pin === "1234") {
+            const balance = document.getElementById("balance");
+
+            const amountRequest = document.getElementById("bill-ammount").value;
+
+            const totalBalance = parseInt(balance.innerText) - parseInt(amountRequest);
+
+            console.log(totalBalance);
+
+            balance.innerText = totalBalance;
+            confirm(amountRequest + " USD bill had been paid. \n Your main balanace is " + totalBalance + "USD Thank you.")
+        }
+
+        else {
+
+            const newPara = document.createElement("p");
+            newPara.id = "error";
+            newPara.innerText = "Wrong account number or pin number! \n Please enter the 4 digit pin number";
+            newPara.style.color = "red";
+            newPara.style.fontSize = "16px";
+            newPara.style.textAlign = "center";
+            newPara.style.paddingBottom = "20px";
+            document.getElementById("add-money").appendChild(newPara);
+        }
+
+
+
+    })
+
+
+})
+
+
+

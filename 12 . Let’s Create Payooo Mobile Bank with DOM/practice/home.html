@@ -24,9 +24,9 @@
 
 <body class="outfit-font">
     <main class="flex justify-center">
-        <div class="mockup-phone">
+        <div class="">
 
-            <div class="mockup-phone-camera"></div>
+            
             <!-- mockup-phone-display -->
 
             <div class=" text-black  bg-white ">
@@ -205,6 +205,30 @@
                         <button type="submit" class="px-5 py-4 text-xl font-semibold bg-[#0874F2] text-white rounded-[32px] my-4 active:bg-blue-700">Get Bonus</button>
                     </form>
                 </div>
+
+                <!-- pay bills -->
+                 <div class="mx-3 hidden" id="pay-bills" >
+                    <h3 class="text-lg font-semibold text-[#080808E5]">Bill Pay</h3>
+                    <form action="" class="flex flex-col rounded-2xl p-8">
+                        <label for="Bank" class="text-base font-semibold text-gray-600 my-3">Select A Bank</label>
+                        <select name="Bank" id="" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70">
+                            <option value="ucb">United Commercial Bank PLC</option>
+                            <option value="ibbl">Islami Bank Bangladesh Limited</option>
+                            <option value="dbbl">Dutch Bangla Bank Limited</option>
+                        </select>
+
+                        <label for="accNumber" class="text-base font-semibold text-gray-600 my-3">Biller Account Number</label>
+                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="" required autocomplete="on" placeholder="your bank account number">
+
+                        <label for="amount" class="text-base font-semibold text-gray-600 my-3">Amount to Pay</label>
+                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="bill-ammount" required autocomplete="on" placeholder="Add amount to withdraw" >
+                        
+                        <label for="pin" class="text-base font-semibold text-gray-600 my-3">Pin Number</label>
+                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="pin-bill" required autocomplete="on" placeholder="Enter 4 digit pin number">
+                        <button type="submit" class="px-5 py-4 text-xl font-semibold bg-[#0874F2] text-white rounded-[32px] my-4 active:bg-blue-700" id = "pay-request">Pay Now</button>
+                    </form>
+                </div>
+
             </div>
 
         </div>
