@@ -91,7 +91,7 @@ document.getElementById("add-money-buttons").addEventListener("click", function 
 
 })
 
-document.getElementById("transfer-money-button").addEventListener("click", function (event) {
+document.getElementById("transferMoneyButton").addEventListener("click", function (event) {
     event.preventDefault();
 
     document.getElementById("transfer-money").style.display = "block";
@@ -100,10 +100,10 @@ document.getElementById("transfer-money-button").addEventListener("click", funct
     document.getElementById("add-money").style.display = "none";
     document.getElementById("bonus").style.display = "none";
 
-    document.getElementById("send-request").addEventListener("click", function (event) {
-        event.preventDefault();
+    document.getElementById("sendMoney").addEventListener("click", function (event) {
+        event.preventDefault()
 
-        const pin = document.getElementById("send-pin").value;
+        const pin = document.getElementById("sendPin").value;
         if (pin === "1234") {
             const balance = document.getElementById("balance");
 
@@ -114,7 +114,7 @@ document.getElementById("transfer-money-button").addEventListener("click", funct
             console.log(totalBalance);
 
             balance.innerText = totalBalance;
-            confirm(amountRequest + " USD cashed out from your account. \n Your main balanace is " + totalBalance + "USD Thank you.");
+            confirm(amountRequest + " USD has been tranfered from your account. \n Your main balanace is " + totalBalance + "USD Thank you.")
         }
 
         else {
@@ -126,7 +126,7 @@ document.getElementById("transfer-money-button").addEventListener("click", funct
             newPara.style.fontSize = "16px";
             newPara.style.textAlign = "center";
             newPara.style.paddingBottom = "20px";
-            document.getElementById("cash-out").appendChild(newPara);
+            document.getElementById("add-money").appendChild(newPara);
         }
 
 
