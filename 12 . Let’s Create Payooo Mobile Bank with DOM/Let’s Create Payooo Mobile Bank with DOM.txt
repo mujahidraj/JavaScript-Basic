@@ -13,3 +13,8 @@ Module-27 : lets create payooo mobile banking system
 
         here we get to know about the reedirection to the next page if the condition is matched . 
         so for that we haev to use the window.location.href = "location". using this we are going to redirected to the next pages . 
+        and we can use to print the existing value .
+
+    27.4 : created add money button and add money form
+
+        
