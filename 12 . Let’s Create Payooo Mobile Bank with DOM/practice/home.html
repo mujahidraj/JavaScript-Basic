@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/Group.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/a2c1bb72d8.js" crossorigin="anonymous"></script>
     <style>
         .outfit-font {
@@ -34,7 +35,7 @@
                     <div class="stats shadow flex flex-row items-center">
                         <img class="w-16 h-12" src="assets/Group.png" alt="">
                         <div class="stat">
-                            <div class="font-extrabold">$50,430</div>
+                            <div class="font-extrabold" >$<span id="balance">50430</span></div>
                             <div class="stat-desc">Available Balance</div>
                         </div>
                     </div>
@@ -47,8 +48,7 @@
                 <!-- welcome section -->
                 <div class="my-8 mx-3">
                     <h3 class="font-bold text-2xl my-4">🔥 Welcome to Payooo!</h3>
-                    <p class="text-[#08080880]">Enjoy easy and convenient financial services with us. Cashout charge is
-                        low and </p>
+                    <p class="text-[#08080880]">Enjoy easy and convenient financial services with us. Cash Out charges are low, <br> and transactions are fast and secure!</p>
                 </div>
 
                 <!-- button section -->
@@ -63,23 +63,23 @@
                         <p>Cashout</p>
                     </button>
                     <button
-                        class="py-5 px-3 flex flex-col  border-[1px] rounded-lg bg-slate-100 border-[#0808081A] gap-2 items-center text-[#080808B2] hover:text-blue-600 hover:border-blue-600 focus:text-blue-600 focus:border-blue-600" >
-                        <img src="assets/money1.png" alt="">
+                        class="py-5 px-3 flex flex-col  border-[1px] rounded-lg bg-slate-100 border-[#0808081A] gap-2 items-center text-[#080808B2] hover:text-blue-600 hover:border-blue-600 focus:text-blue-600 focus:border-blue-600" id="transfer-money-button">
+                        <img src="assets/money1.png" alt="" >
                         <p>Transfer</p>
                     </button>
                     <button
-                       class="py-5 px-3 flex flex-col  border-[1px] rounded-lg bg-slate-100 border-[#0808081A] gap-2 items-center text-[#080808B2] hover:text-blue-600 hover:border-blue-600 focus:text-blue-600 focus:border-blue-600" >
+                       class="py-5 px-3 flex flex-col  border-[1px] rounded-lg bg-slate-100 border-[#0808081A] gap-2 items-center text-[#080808B2] hover:text-blue-600 hover:border-blue-600 focus:text-blue-600 focus:border-blue-600" id="bonus-button">
                         <img src="assets/bonus1.png" alt="">
                         <p>Get Bonus</p>
                     </button>
                     <button
-                        class="py-5 px-3 flex flex-col  border-[1px] rounded-lg bg-slate-100 border-[#0808081A] gap-2 items-center text-[#080808B2] hover:text-blue-600 hover:border-blue-600 focus:text-blue-600 focus:border-blue-600" >
-                        <img src="assets/purse1.png" alt="">
+                        class="py-5 px-3 flex flex-col  border-[1px] rounded-lg bg-slate-100 border-[#0808081A] gap-2 items-center text-[#080808B2] hover:text-blue-600 hover:border-blue-600 focus:text-blue-600 focus:border-blue-600" id="bills-button">
+                        <img src="assets/purse1.png" alt="" >
                         <p>Pay bills</p>
                     </button>
                     <button
-                        class="py-5 px-3 flex flex-col  border-[1px] rounded-lg bg-slate-100 border-[#0808081A] gap-2 items-center text-[#080808B2] hover:text-blue-600 hover:border-blue-600 focus:text-blue-600 focus:border-blue-600" >
-                        <img src="assets/transaction1.png" alt="">
+                        class="py-5 px-3 flex flex-col  border-[1px] rounded-lg bg-slate-100 border-[#0808081A] gap-2 items-center text-[#080808B2] hover:text-blue-600 hover:border-blue-600 focus:text-blue-600 focus:border-blue-600" id="transaction-button">
+                        <img src="assets/transaction1.png" alt="" >
                         <p>Transaction</p>
                     </button>
                 </div>
@@ -151,11 +151,11 @@
                         <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="" required autocomplete="on" placeholder="your bank account number">
 
                         <label for="amount" class="text-base font-semibold text-gray-600 my-3">Amount to Add</label>
-                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="" required autocomplete="on" placeholder="Add amount to withdraw">
+                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="input-ammount" required autocomplete="on" placeholder="Add amount to withdraw" >
                         
                         <label for="pin" class="text-base font-semibold text-gray-600 my-3">Pin Number</label>
-                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="" required autocomplete="on" placeholder="Enter 4 digit pin number">
-                        <button type="submit" class="px-5 py-4 text-xl font-semibold bg-[#0874F2] text-white rounded-[32px] my-4 active:bg-blue-700">Add Money</button>
+                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="pinNumber" required autocomplete="on" placeholder="Enter 4 digit pin number">
+                        <button type="submit" class="px-5 py-4 text-xl font-semibold bg-[#0874F2] text-white rounded-[32px] my-4 active:bg-blue-700" id = "add-request">Add Money</button>
                     </form>
                 </div>
 
@@ -175,11 +175,41 @@
                         <button type="submit" class="px-5 py-4 text-xl font-semibold bg-[#0874F2] text-white rounded-[32px] my-4 active:bg-blue-700">Withdraw Money</button>
                     </form>
                 </div>
+
+                <!-- Transfer -->
+                 <div class="mx-3 hidden" id="transfer-money" >
+                    <h3 class="text-lg font-semibold text-[#080808E5]">Transfer Money </h3>
+                    <form action="" class="flex flex-col rounded-2xl p-8">
+
+                        <label for="userNumber" class="text-base font-semibold text-gray-600 my-3">User Account Number</label>
+                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="" required autocomplete="on" placeholder="Enter 11 digit number">
+
+                        <label for="amount" class="text-base font-semibold text-gray-600 my-3">Amount</label>
+                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="" required autocomplete="on" placeholder="Add amount to withdraw">
+                        
+                        <label for="pin" class="text-base font-semibold text-gray-600 my-3">Pin Number</label>
+                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="" required autocomplete="on" placeholder="Enter 4 digit pin number">
+                        <button type="submit" class="px-5 py-4 text-xl font-semibold bg-[#0874F2] text-white rounded-[32px] my-4 active:bg-blue-700">Send Money</button>
+                    </form>
+                </div>
+
+                 <!-- Bonus -->
+                 <div class="mx-3 hidden" id="bonus" >
+                    <h3 class="text-lg font-semibold text-[#080808E5]">Get Bonus </h3>
+                    <form action="" class="flex flex-col rounded-2xl p-8">
+
+                        
+                        
+                        <label for="pin" class="text-base font-semibold text-gray-600 my-3">Enter Bonus Coupon</label>
+                        <input type="text" class="py-4 px-5 border-none bg-neutral-200 rounded-[32px] text-base font-light opacity-70" name="" id="" required autocomplete="on" placeholder="Enter your coupon">
+                        <button type="submit" class="px-5 py-4 text-xl font-semibold bg-[#0874F2] text-white rounded-[32px] my-4 active:bg-blue-700">Get Bonus</button>
+                    </form>
+                </div>
             </div>
 
         </div>
     </main>
-    <script src="../practice/js/login.js"></script>
+    
     <script src="js/add-money.js"></script>
 </body>
 
