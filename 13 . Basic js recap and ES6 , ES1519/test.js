@@ -35,8 +35,12 @@ const array3 = array2;
 
 array2.push(111);
 
-console.log(array3);
-console.log(array2);
+// console.log(array3);
+// console.log(array2);
 
+const [first , second ,,forth] = array;
+
+
+console.log(forth);
 
 
