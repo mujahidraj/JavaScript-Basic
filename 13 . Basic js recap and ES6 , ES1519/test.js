@@ -23,11 +23,20 @@ const raj = {
 
 const { age } = raj;
 
-console.log(age);
+// console.log(age);
 
 const array = [12, 4, 56, 8, 34, 2, 124, 5, 3, 21, 5];
 
 const array2 = [12, 23, ...array, 1, 2,3, 4, 5,6]
 
+// console.log(array2);
+
+const array3 = array2;
+
+array2.push(111);
+
+console.log(array3);
 console.log(array2);
+
+
 
