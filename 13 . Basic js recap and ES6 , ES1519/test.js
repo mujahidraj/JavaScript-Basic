@@ -51,21 +51,33 @@ const raina = {
     isOlder : true 
 }
 
-// return the properties/ keys
+// return the properties/ keys as array
 const keys  = Object.keys(raina)
 
-console.log(keys);
+// console.log(keys);
 
-// return the properties / keys value
+// return the properties / keys value as array
 const values = Object.values(raina)
 
-console.log(values);
+// console.log(values);
 
 
-// return the properties and values together .
+// return the properties and values together . as array . which is called the two dimentional array 
 const entry = Object.entries(raina)
 
-console.log(entry);
+// console.log(entry);
+
+
+// delete a object property using the delete keyword 
+// delete raina.isOlder;
+
+// console.log(raina);
+
+const {isOlder ,...rest} = raina;
+
+console.log(rest);
+
+
 
 
 
