@@ -27,7 +27,7 @@ const { age } = raj;
 
 const array = [12, 4, 56, 8, 34, 2, 124, 5, 3, 21, 5];
 
-const array2 = [12, 23, ...array, 1, 2,3, 4, 5,6]
+const array2 = [12, 23, ...array, 1, 2, 3, 4, 5, 6]
 
 // console.log(array2);
 
@@ -38,21 +38,21 @@ array2.push(111);
 // console.log(array3);
 // console.log(array2);
 
-const [first , second ,,forth] = array;
+const [first, second, , forth] = array;
 
 
 // console.log(forth);
 
 
 const raina = {
-    name : "Nilufa Yesmin Raina",
-    age : 18,
-    class : 12 ,
-    isOlder : true 
+    name: "Nilufa Yesmin Raina",
+    age: 18,
+    class: 12,
+    isOlder: true
 }
 
 // return the properties/ keys as array
-const keys  = Object.keys(raina)
+const keys = Object.keys(raina)
 
 // console.log(keys);
 
@@ -99,7 +99,31 @@ const entry = Object.entries(raina)
 // console.log(raina);
 
 
+// for of can be used in array or string not in the object . for of added in the es6 
+const numbers = [1, 2, 3, 4, 5, 6, 7]
+
+for (const nums of numbers){
+    // console.log(nums);
+    
+}
+
+const stringValue = "my name is Moizuddin Mohammad Mujahid Rashid";
+
+for(const char of stringValue){
+    // console.log(char);
+    
+}
 
 
+// for in can be used in the object not in array or the string . 
+const mayad = {
+    name : "Asmaul Husna Mayad",
+    age : 25 ,
+    mom : "keya ferdows",
+    semester : 12
+};
 
-
+for(const keys in mayad){
+    // console.log(mayad[keys]);
+    
+}
