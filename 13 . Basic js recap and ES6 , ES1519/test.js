@@ -51,8 +51,21 @@ const raina = {
     isOlder : true 
 }
 
+// return the properties/ keys
 const keys  = Object.keys(raina)
 
 console.log(keys);
+
+// return the properties / keys value
+const values = Object.values(raina)
+
+console.log(values);
+
+
+// return the properties and values together .
+const entry = Object.entries(raina)
+
+console.log(entry);
+
 
 
