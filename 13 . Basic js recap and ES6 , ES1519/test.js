@@ -73,9 +73,21 @@ const entry = Object.entries(raina)
 
 // console.log(raina);
 
-const {isOlder ,...rest} = raina;
+//  using the destructuring the object will divide into part and that will be totally independent object . so we can see the independent object suing the console . 
 
-console.log(rest);
+// const {isOlder ,...rest} = raina;
+
+// console.log(rest);
+
+
+//  using the freeze keyword we can lock the object . like we cannot change the other thing or add or delete anything to the object . that mean the object will be freeze or locked . 
+// Object.freeze(raina);
+
+// raina.source = "Jane and Jahangir";
+// raina.isOlder = false;
+
+// console.log(raina);
+
 
 
 
