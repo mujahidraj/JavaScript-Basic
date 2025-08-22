@@ -89,6 +89,16 @@ const entry = Object.entries(raina)
 // console.log(raina);
 
 
+//  the difference between freeze and seal is seal allow us to modify or change value but not add , delete 
+
+// Object.seal(raina);
+
+// raina.source = "Jane and Jahangir";
+// raina.isOlder = false;
+
+// console.log(raina);
+
+
 
 
 
