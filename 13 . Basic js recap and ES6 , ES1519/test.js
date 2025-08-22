@@ -41,6 +41,18 @@ array2.push(111);
 const [first , second ,,forth] = array;
 
 
-console.log(forth);
+// console.log(forth);
+
+
+const raina = {
+    name : "Nilufa Yesmin Raina",
+    age : 18,
+    class : 12 ,
+    isOlder : true 
+}
+
+const keys  = Object.keys(raina)
+
+console.log(keys);
 
 
