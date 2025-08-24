@@ -33,3 +33,14 @@ const person = {
 // console.log(person.address.road?.first);
 
 
+const numbers = [1,2,43,6,78,6,46,8,0,5,33]
+//to use the map we have at least a call back function . and that funtion will work for map . thats mean a map will take the array and go through the loop and then send the element to the function and do the work . and return that as an array again . 
+const multi = num => num*num;
+
+const result = numbers.map(multi);
+// console.log(result);
+// we can do the mapping like this one two . we can send write a executable code within the map function . 
+console.log(numbers.map(num =>num*num));
+
+
+
