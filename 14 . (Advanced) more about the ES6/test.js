@@ -50,8 +50,15 @@ const friendNames = names.map(friends=>friends[0])
 // console.log(friendNames);
 
 // for each work as the map . but the differnce between forEach and map is map return a array but forEach doesnt return anything . map return a opration result inside a array but the foreach not return anything .
-const friendsName2 = names.forEach(n=> console.log(n))
+// const friendsName2 = names.forEach(n=> console.log(n))
 
+// filter work on the condition . if we want to soemthing with a condition we can use the filter which work with the conditional array .
+
+const friendName3 = names.filter(friends=> friends[0] =="J")
+// console.log(friendName3);
+
+const friendName4 = names.find(friends => friends.length > 3 )
+console.log(friendName4);
 
 
 
