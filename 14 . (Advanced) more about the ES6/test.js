@@ -40,7 +40,20 @@ const multi = num => num*num;
 const result = numbers.map(multi);
 // console.log(result);
 // we can do the mapping like this one two . we can send write a executable code within the map function . 
-console.log(numbers.map(num =>num*num));
+// console.log(numbers.map(num =>num*num));
+
+const names = ["Raj", "Raina" , "Mayad", "Fidbi", "Jahangir", "Jane"];
+
+// map will go through the loop using the each elements and then take the element in the function and works on it and then return the element and after that go to the loop and then so on .. after completing the task it will return a array of that task . 
+const friendNames = names.map(friends=>friends[0])
+
+// console.log(friendNames);
+
+// for each work as the map . but the differnce between forEach and map is map return a array but forEach doesnt return anything . map return a opration result inside a array but the foreach not return anything .
+const friendsName2 = names.forEach(n=> console.log(n))
+
+
+
 
 
 
