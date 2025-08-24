@@ -57,6 +57,7 @@ const friendNames = names.map(friends=>friends[0])
 const friendName3 = names.filter(friends=> friends[0] =="J")
 // console.log(friendName3);
 
+// find can find out only one thing . it not then return undefine . if find then return only one . it there is more then one it will return the first one . 
 const friendName4 = names.find(friends => friends.length > 3 )
 console.log(friendName4);
 
