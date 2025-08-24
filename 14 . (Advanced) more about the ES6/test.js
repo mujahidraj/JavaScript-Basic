@@ -27,6 +27,9 @@ const person = {
         } 
     }
 }
+// this is called chaining 
+// console.log(person.address.street.first);
+// this is called optional chaining
+// console.log(person.address.road?.first);
 
-console.log(person.address.street.first);
 
