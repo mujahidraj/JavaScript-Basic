@@ -16,5 +16,8 @@
 // 8 . set a value directly to undefined
 
 // difference between truthy and falsy
-// truthy : 1 . true ,2 . any number (postive or negative) will be truthy except zero 3 . any string is truthy except empty . 4. "0" 5 . "false" or "true"
+// truthy : 1 . true ,2 . any number (postive or negative) will be truthy except zero 3 . any string is truthy except empty . 4. "0" 5 . "false" or "true" 6 . empty objecr and array 
 // falsy : 1 . false , 2 . empty string 3 . 0 4 . undefine is false 5 . null is false 
+
+// there is a thing called type coercion or type conversion or type casting 
+// these allow us to convert or check if the type is okay or not 
