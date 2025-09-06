@@ -21,3 +21,15 @@
 
 // there is a thing called type coercion or type conversion or type casting 
 // these allow us to convert or check if the type is okay or not 
+
+//  there is 3 debugging steps 
+// 1 . error identification
+// 2 . error analysis
+// 3 . fix and validation
+
+// there is several dubugging technique 
+// 1 . console log
+// 2 . breakpoints
+// 3 . debugger keyword
+// 4 . backtracking
+// 5 . forward tracking
