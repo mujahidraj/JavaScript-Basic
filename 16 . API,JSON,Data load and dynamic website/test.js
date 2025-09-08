@@ -17,12 +17,16 @@ const person = {
 
 // using the jason.stringify we can convert the javascript values into the jason string and json .
 
-console.log(person);
-console.log(typeof person);
+// console.log(person);
+// console.log(typeof person);
 
 const personJSON = JSON.stringify(person);
 
-console.log(personJSON);
-console.log(typeof personJSON);
+// console.log(personJSON);
+// console.log(typeof personJSON);
 
+
+// to convert a json string to an object we can use the parse to convert it into the object 
+
+console.log(JSON.parse(personJSON));
 
