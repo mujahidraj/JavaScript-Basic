@@ -30,3 +30,15 @@ const personJSON = JSON.stringify(person);
 
 console.log(JSON.parse(personJSON));
 
+
+// here we learn about the fetch .
+// we got to know about the json placeholder 
+// using the fetch function we can get a datas from the server side and use that . 
+// json placeholder provide us some of the fake data using the api 
+// to use the fetch we have to have a html file . thats mean it cannot be use with out the browser involement and for this we have to use the html file 
+
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+//       .then(response => response.json())
+//       .then(json => console.log(json))
+
+//we have use the above things to test 
