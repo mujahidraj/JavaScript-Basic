@@ -1,7 +1,7 @@
 const loadComments = async()=>{
    try{
     const res= await fetch('https://jsonplaceholder.typicode.com/comments');
-   const data = await res.json();
+   const data = await res.jszon();
    console.log(data);
    
    }
