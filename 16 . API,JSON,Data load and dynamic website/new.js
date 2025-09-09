@@ -5,8 +5,11 @@ function usersLoad(){
 }
 
 function displayUsers(data){
-    const newObject = data;
-    console.log(newObject);
+    for(const users of data){
+        console.log(users.name);
+        
+    }
+   
     
 
 }
