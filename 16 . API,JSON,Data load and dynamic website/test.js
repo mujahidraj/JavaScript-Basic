@@ -44,3 +44,13 @@ console.log(JSON.parse(personJSON));
 //we have use the above things to test 
 
 // api stand for the application programming interface . an pai act like a kink to added two application to talk to eaach other 
+
+// there is 2 type . crud and restful api
+// crud = create , read , update , delete
+// restful api = get, post , put,patch and delete
+
+// get use to collect information from the database
+// post use to send information in the database
+// put use to  post or update data . like if the data is in the database it will replace it and if the data is not there it will create one
+// patch use to update existed data
+// delete use to delete data 
