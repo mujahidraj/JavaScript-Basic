@@ -42,3 +42,5 @@ console.log(JSON.parse(personJSON));
 //       .then(json => console.log(json))
 
 //we have use the above things to test 
+
+// api stand for the application programming interface . an pai act like a kink to added two application to talk to eaach other 
