@@ -54,3 +54,19 @@ console.log(JSON.parse(personJSON));
 // put use to  post or update data . like if the data is in the database it will replace it and if the data is not there it will create one
 // patch use to update existed data
 // delete use to delete data 
+
+
+
+/*
+1 . what is an API?
+2 . what are the http methods supported by rest?
+3 . can you use get request  instead of put to create a resource /
+4 . what is the difference between put and post?
+5 . what is json?
+6 . what are the crud oparation? 
+7 . what is the file extension for json? 
+8 . what is the role for json.stringify?
+9 . what is the data type supported by the JSON?
+10 . show how to parse a json?
+11 . tell us the different between get and post ? 
+*/
