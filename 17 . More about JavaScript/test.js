@@ -48,3 +48,7 @@ functional programming
 // to create a promise just like we have to call the promise by new promise(resolve , reject
 
 // a fetch method only rejects when there is network error 
+
+// async/await work wwith the promise to make it more comfortable 
+// await can be used in the async function 
+// await keywrod make the function pause the execution and wait for the resolve the promise 
