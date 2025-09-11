@@ -94,3 +94,19 @@ functional programming
 // what the heck the event loop anyways? philips roberts
 
 // javascript is a single threaded language still it can work as a multiple thread because of event loop and the event queue
+
+
+/*
+
+INTERVIEW QUESTION
+
+1 . Tell me something about the js engine v8 internal mechanism 
+2 . what is event loop in javascript
+3 . if javascript is a single thread , how does it handle asynchrounus call 
+4 . diffenence between settimeout and setinterval 
+5 . can you explain the difference between an async/await  and promise
+6 . what is the error handle strategy of promise thar were rejected while awitring
+7 . can you explain what the .then() method does ?
+8 
+
+*/
