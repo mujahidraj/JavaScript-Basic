@@ -82,3 +82,15 @@ functional programming
     
 // },4000);
 // console.log(4);
+
+
+// call stack is like stack a running function and the pop after the finishes and then start another one and after that it will pop .
+
+// call stack track of all the operations in a line of execution
+
+// two thing we should know ....1 . what is javascript and 2 . how javascript works
+
+// what is event loop and what is event concurrency 
+// what the heck the event loop anyways? philips roberts
+
+// javascript is a single threaded language still it can work as a multiple thread because of event loop and the event queue
