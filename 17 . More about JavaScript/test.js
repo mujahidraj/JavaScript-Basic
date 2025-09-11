@@ -52,3 +52,33 @@ functional programming
 // async/await work wwith the promise to make it more comfortable 
 // await can be used in the async function 
 // await keywrod make the function pause the execution and wait for the resolve the promise 
+
+
+// // to pass data to the set time out using the function
+// const number3 = (data , name)=>{
+//     return console.log(data ,name);
+    
+// }
+
+// console.log(1);
+// console.log(2);
+// // we have to put the args in the parameter 3 not in the second one . second one is for the time and the first one for the function that we want to call .
+// setTimeout(number3,3000,10, "Raj")
+// console.log(4);
+// // so whatever it do i have to put the function first then timr and then the arguments
+// setTimeout(console.log,4000,5
+// )
+// console.log(6);
+// console.log(7);
+
+
+
+
+// we can write a function inside a settitmeout 
+// console.log(1);
+// console.log(2);
+// setTimeout(()=>{
+//     console.log(3);
+    
+// },4000);
+// console.log(4);
