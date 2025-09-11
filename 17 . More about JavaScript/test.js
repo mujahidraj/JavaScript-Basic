@@ -31,3 +31,17 @@ functional programming
 // there are two type of execution context 
 // global execution context
 // function execution context
+
+// javascript work as a single thread 
+//  javascript is a synchronous language 
+// single thread means only one statement is executed at a time
+// javascript has only one call stack
+// javascript runs code line by line 
+// synchronous work sequencially . like it will load a contain sequencially .
+// whereas asynchronous work in a sequence .
+
+// promise is a object that is eventual completion or failure of an asynchronous operation and its resulting value.
+
+// promise has three state such as pending , reject and resolve
+
+//  
