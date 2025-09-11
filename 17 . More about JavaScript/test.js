@@ -44,4 +44,7 @@ functional programming
 
 // promise has three state such as pending , reject and resolve
 
-//  
+//  promise has 2 parameter resolve and reject 
+// to create a promise just like we have to call the promise by new promise(resolve , reject
+
+// a fetch method only rejects when there is network error 
