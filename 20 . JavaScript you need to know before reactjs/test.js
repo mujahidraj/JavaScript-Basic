@@ -25,17 +25,16 @@
 22 . filter 
 23 . find
 24 . destructuring (array and object)
-25 . 
+25 . JSON
+26 . stringify
+27 . parse
+28 . fetch 
+29 . chaining method
+
 
 
 */
 
-const mobiles = [
-    {name : "nokia",price : 2000, isCamera : true},
-    {name : "Samasunge",price : 6000, isCamera : false},
-    {name : "iPun",price : 12000, isCamera : false},
-    {name : "Pipo",price : 1000, isCamera : true}
-]
 
 // const result = mobiles.map(mobiles=>mobiles.price)
 
@@ -62,3 +61,22 @@ const mobiles = [
 // const [mobile1 , mobile2 , ...mobilees] =mobiles
 
 // console.log(mobilees[1].price);
+
+const mobiles = [
+    {name : "nokia",price : 2000, isCamera : true},
+    {name : "Samasunge",price : 6000, isCamera : false},
+    {name : "iPun",price : 12000, isCamera : false},
+    {name : "Pipo",price : 1000, isCamera : true}
+]
+
+// const jsonData = JSON.stringify(mobiles)
+
+// console.log(jsonData);
+
+
+// const jsonParse = JSON.parse(jsonData)
+// console.log(jsonParse);
+
+
+
+
