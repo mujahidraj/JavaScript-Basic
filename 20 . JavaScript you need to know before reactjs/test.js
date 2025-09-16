@@ -21,7 +21,12 @@
 18 . arrow function 
 19 . more spread operator
 20 . map
-21 . 
+21 . forEach
+22 . filter 
+23 . find
+24 . destructuring (array and object)
+25 . 
+
 
 */
 
@@ -32,6 +37,28 @@ const mobiles = [
     {name : "Pipo",price : 1000, isCamera : true}
 ]
 
-const result = mobiles.map(mobiles=>mobiles.price)
+// const result = mobiles.map(mobiles=>mobiles.price)
 
-console.log(result);
+// console.log(result);
+
+// mobiles.forEach(Element = (element) => {
+// console.log(element.price);
+
+// })
+
+// const mobileSearch = mobiles.filter(product =>product.price >2000)
+// console.log(mobileSearch);
+
+// const specificSearch= mobiles.find(product=>product.name==="Samasunge")
+// console.log(specificSearch);
+
+// const arr = ["Raj", "mayad" , "fidbi" , "alin" , "nadiya" , "jarif"]
+
+// const [element1 , element2 , ...elementRest] = arr 
+
+// console.log(elementRest);
+
+
+// const [mobile1 , mobile2 , ...mobilees] =mobiles
+
+// console.log(mobilees[1].price);
