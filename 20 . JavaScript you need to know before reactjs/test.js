@@ -17,5 +17,21 @@
 14 . spread
 15 . arrow function 
 16 . object 
+17 . template string
+18 . arrow function 
+19 . more spread operator
+20 . map
+21 . 
 
 */
+
+const mobiles = [
+    {name : "nokia",price : 2000, isCamera : true},
+    {name : "Samasunge",price : 6000, isCamera : false},
+    {name : "iPun",price : 12000, isCamera : false},
+    {name : "Pipo",price : 1000, isCamera : true}
+]
+
+const result = mobiles.map(mobiles=>mobiles.price)
+
+console.log(result);
