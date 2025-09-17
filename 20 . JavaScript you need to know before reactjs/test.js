@@ -30,6 +30,20 @@
 27 . parse
 28 . fetch 
 29 . chaining method
+30 . keys
+31 . truthy value
+32 . falsy value 
+33 . ternary operator
+34 . condition shortcut
+35 . session storage
+36 . local storage
+37 . Dot notation
+38 . Bracket Notation
+39 . Math Function
+40 . min , max, floor , ceil ,floor, abs , round , random 
+41 . null 
+42 . undefine 
+
 
 
 
@@ -62,12 +76,7 @@
 
 // console.log(mobilees[1].price);
 
-const mobiles = [
-    {name : "nokia",price : 2000, isCamera : true},
-    {name : "Samasunge",price : 6000, isCamera : false},
-    {name : "iPun",price : 12000, isCamera : false},
-    {name : "Pipo",price : 1000, isCamera : true}
-]
+
 
 // const jsonData = JSON.stringify(mobiles)
 
@@ -77,6 +86,21 @@ const mobiles = [
 // const jsonParse = JSON.parse(jsonData)
 // console.log(jsonParse);
 
+
+
+// const hulu = Object.keys(mobiles[1]);
+// console.log(hulu);
+
+// const huluValues = Object.values(mobiles[0])
+// console.log(huluValues);
+
+
+const mobiles = [
+    {name : "nokia",price : 2000, isCamera : true},
+    {name : "Samasunge",price : 6000, isCamera : false},
+    {name : "iPun",price : 12000, isCamera : false},
+    {name : "Pipo",price : 1000, isCamera : true}
+]
 
 
 
